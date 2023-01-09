@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+body {
+    background-color: rgb(30, 30, 30);
+    min-height: 300px;
+    text-align: center;
+    font-family:  'Playfair Display', serif;
+    color:rgb(255, 255, 255);
+  }
+  
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, Times, Serif;*/
+    color:rgb(255, 255, 255);
+  }
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100%;
+    background-color: rgba(30, 30, 30);
+  }
+  
+  button, button:focus {
+    background-color: rgb(96, 96, 96);
+    border: 2px ridge rgb(0, 0, 0);
+    border-radius: 5%;
+  }
+  
+  button:hover {
+    background-color: rgb(81, 81, 81);
+  }
+  
+  div.quote {
+    padding: 20px;
+    margin: 30px auto;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 1px rgb(96, 96, 96); 
+  }
+  
+  blockquote {
+    font-size: 140%;
+    font-weight: bold;
+  }
+  
+  div.quote p {
+    margin-bottom: 50px;
+    font-style: italic;
+  }
+
+/*
+  <style>
+  {@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap')};
+  /*{@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;900&display=swap')};
+  </style> */
